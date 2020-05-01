@@ -8,9 +8,7 @@ This sample file computes the normalized global moments (zeroth <img src="https:
 
 The global moments give the fraction of solute in the fluid (<img src="https://render.githubusercontent.com/render/math?math=M_0">), the centre of mass (<img src="https://render.githubusercontent.com/render/math?math=M_1">) and the variance of the solute distribution in the fluid (<img src="https://render.githubusercontent.com/render/math?math=M_2">). The corresponding dimensionless transport velocity and longitudinal dispersion coefficient of the solute can be calculated by
 
-$$
-v=\frac{\mathrm{d}M_1}{\mathrm{d} t} \quad \text{and} \quad D_L = \frac{1}{2} \frac{\mathrm{d}M_2}{\mathrm{d}t}.
-$$
+<img src="https://render.githubusercontent.com/render/math?math=v=\frac{\mathrm{d}M_1}{\mathrm{d} t} \quad \text{and} \quad D_L = \frac{1}{2} \frac{\mathrm{d}M_2}{\mathrm{d}t}.">
 
 For more details, please refer to [Zhang L., Hesse M. and Wang M. Journal of Fluid Mechanics, 2017, 828: 733-752](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/transient-solute-transport-with-sorption-in-poiseuille-flow/A71BED73D16A236D02F06E19FF54DF02).
 
