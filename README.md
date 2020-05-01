@@ -1,15 +1,17 @@
 # Sample Matlab Code
 
 ## Description of code
-This sample file computes the normalized global moments (zeroth $M_0$, first $M_1$, second $M_2$) of a reactive solute in Poiseuille flow between plates with surface adsorption. Three different types of surface adsorption model are implemented:
+This sample file computes the normalized global moments (zeroth <img src="https://render.githubusercontent.com/render/math?math=M_0">, first <img src="https://render.githubusercontent.com/render/math?math=M_1">, second <img src="https://render.githubusercontent.com/render/math?math=M_2">) of a reactive solute in Poiseuille flow between plates with surface adsorption. Three different types of surface adsorption model are implemented:
 * linear kinetic model: both adsorption and desorption occur simultaneously and described using a kinetic rate;
 * linear equilibrium model: both adsorption and desorption occur simultaneously and described using a equilibrium constant;
 * adsorption-only model ([Lungu-Moffatt model]((https://link.springer.com/article/10.1007/BF00042550))): kinetic adsorption without desorption and described only by adsorption rate.
 
-The global moments give the fraction of solute in the fluid (<img src="https://render.githubusercontent.com/render/math?math=M_0">), the centre of mass ($M_1$) and the variance of the solute distribution in the fluid ($M_2$). The corresponding dimensionless transport velocity and longitudinal dispersion coefficient of the solute can be calculated by
+The global moments give the fraction of solute in the fluid (<img src="https://render.githubusercontent.com/render/math?math=M_0">), the centre of mass (<img src="https://render.githubusercontent.com/render/math?math=M_1">) and the variance of the solute distribution in the fluid (<img src="https://render.githubusercontent.com/render/math?math=M_2">). The corresponding dimensionless transport velocity and longitudinal dispersion coefficient of the solute can be calculated by
+
 $$
 v=\frac{\mathrm{d}M_1}{\mathrm{d} t} \quad \text{and} \quad D_L = \frac{1}{2} \frac{\mathrm{d}M_2}{\mathrm{d}t}.
 $$
+
 For more details, please refer to [Zhang L., Hesse M. and Wang M. Journal of Fluid Mechanics, 2017, 828: 733-752](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/transient-solute-transport-with-sorption-in-poiseuille-flow/A71BED73D16A236D02F06E19FF54DF02).
 
 ## Note
