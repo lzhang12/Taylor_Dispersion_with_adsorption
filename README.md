@@ -6,7 +6,7 @@ This sample file computes the normalized global moments (zeroth $M_0$, first $M_
 * linear equilibrium model: both adsorption and desorption occur simultaneously and described using a equilibrium constant;
 * adsorption-only model ([Lungu-Moffatt model]((https://link.springer.com/article/10.1007/BF00042550))): kinetic adsorption without desorption and described only by adsorption rate.
 
-The global moments give the fraction of solute in the fluid ($M_0$), the centre of mass ($M_1$) and the variance of the solute distribution in the fluid ($M_2$). The corresponding dimensionless transport velocity and longitudinal dispersion coefficient of the solute can be calculated by
+The global moments give the fraction of solute in the fluid (<img src="https://render.githubusercontent.com/render/math?math=M_0">), the centre of mass ($M_1$) and the variance of the solute distribution in the fluid ($M_2$). The corresponding dimensionless transport velocity and longitudinal dispersion coefficient of the solute can be calculated by
 $$
 v=\frac{\mathrm{d}M_1}{\mathrm{d} t} \quad \text{and} \quad D_L = \frac{1}{2} \frac{\mathrm{d}M_2}{\mathrm{d}t}.
 $$
